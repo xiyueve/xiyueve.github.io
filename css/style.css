@@ -96,7 +96,6 @@ li { font-size: 1.7rem; color: var(--grey-700);}
 a {
   color: var(--color-rose);
   text-decoration: none;
-  color: inherit;
 }
 
 button {
@@ -112,6 +111,14 @@ button {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+button a{
+  color: var(--grey-500);
+}
+
+button a:hover{
+  color: var(--grey-900);
 }
 
 button:hover {
@@ -485,6 +492,11 @@ img { max-width: 100%; display: block; }
   gap: 3rem;
 }
 
+.gallery:has(.gallery__item:only-child) {
+  grid-template-columns: minmax(30rem, 36rem);
+  justify-content: center;
+}
+
 .gallery__item {
   background: var(--color-dark);
   border-radius: 10px;
@@ -501,6 +513,14 @@ img { max-width: 100%; display: block; }
 .gallery__img-wrap {
   aspect-ratio: 4 / 3;
   overflow: hidden;
+}
+
+.gallery__img-wrap iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+  object-fit: cover;
 }
 
 .gallery__img {
