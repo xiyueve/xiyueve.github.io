@@ -65,42 +65,235 @@
   <section class="projects sec-pad">
     <div class="main-container">
       <h2 class="heading heading-sec heading-sec__mb-bg"><span class="heading-sec__main">Projects</span></h2>
-      <p class="projects__row-content-desc"> Projects listed from most to least recent. </p>
+      <div class = "projects__row">
+        <p class="projects__row-content-desc"> Projects listed from most to least recent. Click on the links or scroll down to go to the project description. Larger images can be seen via Google Drive. <br>
+        <br>
+          <ul>
+            <li> 4 - PocketQube in Progress (Wisconsin SmallSat) - August 2026 </li>
+            <li> <a href="#three"> 3 - Gearbox + Assembly Fixtures/Jigs (C-Motive Technologies) - Summer 2026 </a></li>
+            <li> <a href="#two"> 2 - Smart Moving Alarm Clock (IEEE SSCS Contest) - July 2026 </a></li>
+            <li> <a href="#one"> 1 - Simple Sensor Data Transmission + GUI (Wisconsin SmallSat) - April 2026 </a></li>
+          </ul>
+        </p>
+      </div>
+      
       <br>
       <div class="projects__content">
-        <div class="projects__row">
+        <div class="projects__row" id="three">
           <div class="projects__row-content">
             <h3 class="projects__row-content-title">Projects 3+: Assembly Fixtures and Jigs - Summer 2026</h3>
             <p class="projects__row-content-desc">As a mechanical engineering intern at C-Motive Technologies, Inc., I designed and built
               various fixtures and jigs to assist with the process of building electrostatic motors. This ranged from simple parts for quicker assembly
               (e.g. a plug for preventing epoxy from leaking into the bore of a part) to more involved assignments such as gearbox design and force analysis. 
-              NTS: Photos will be added shortly (within next week), and better formatting/descriptions
-              <br>
-              <br>
+              <br><br>
+              <h3 class="projects__row-content-title"> Skills Gained</h3>
+                <button><strong> Mechanical Design:</strong> how to create manufacturable parts, material selection</button>
+                <button><strong> Efficient 3D Modeling: </strong> using main planes for sketches, simple static simulation, motion studies</button>
+                <button><strong> GD&T:</strong> datum and tolerance selection, proper engineering drawing formatting </button>
+                <button><strong> Power Tools:</strong> became very acquainted with the bandsaw, rivet guns, and drill press
+                <button><strong> Miscellaneous: </strong>SOP write-ups, soldering, basic electrostatic theory, basic plate deflection theory</button>
+              <br><br>
                 <ul>
-                  <strong> Project List:</strong>
-                  <li>-> Gearbox Design and FEA</li>
-                  <li>-> Filter Housing </li>
-                  <li>-> Dip Tank Tray Carrier </li>
-                  <li>-> Cleanroom-rated Turntable </li>
-                  <li>-> High-Potential Testing Fixture for Motor Parts</li>
-                  <li>-> Thin-Plate Deflection Solver</li>
-                  <li>-> Quick-Connect Cap</li>
-                  <li>-> Connector Installation Helper</li>
+                  <h3 class="projects__row-content-title">Project List</h3>
+                  <li>♡ ~ Gearbox Design and FEA</li>
+                  <li>♡ ~ Dip Tank Tray Carrier </li>
+                  <li>♡ ~ Cleanroom-rated Turntable </li>
+                  <li>♡ ~ High-Potential Testing Fixture for Motor Plate Subassemblies</li>
+                  <li>♡ ~ Cleaning/Drying Racks for Motor Plates </li>
+                  <li>♡ ~ Filter Housing </li>
+                  <li>♡ ~ Thin-Plate Deflection Solver</li>
+                  <li>♡ ~ Rotor Connector Installation Helper</li>
+                  <li>♡ ~ Miscellaneous Fixtures</li>
                 </ul> 
+                <br>
+               <p class="projects__row-content-desc"> <strong>In Progress: </strong>CMM fixtures, gearbox housing, slip ring test fixture assembly</p> 
             </p>
             <br>
           </div>
+          <p> <br> <br></p>
+          <hr>
+          <p> <br><br> </p>
+          <h3 class="projects__row-content-title"> <strong> Gearbox </strong> </h3>
+          <p class="projects__row-content-desc"> This custom two-stage gearbox is designed for a high-volume, low-speed industrial ceiling fan to be used in conjunction with electrostatic motors from C-Motive Technologies, Inc.  </p>
           <p> <br> </p>
+          <p class="projects__row-content-desc">
+            For this project, I primarily focused on modeling the gear and shaft designs in SolidWorks. I also calculated gear and key forces, then analyzed shaft stresses using the SolidWorks FEA Simulation feature. 
+            Other skills and design concepts I learned about and contributed to include:<br><br>
+            <ul> 
+              <li> ♡ ~ involute gear and shaft design</li>
+              <li> ♡ ~ material and part (snap rings, seals, washers) selection </li> 
+              <li> ♡ ~ gear/key force and factor of safety analysis </li>
+              <li> ♡ ~ bearing lifespan and load calculations </li> 
+              <li> ♡ ~ reading ISO 492 tolerance tables for bearings </li>
+              <li> ♡ ~ interpreting ABEC classes and fastener grades</li>
+              <li> ♡ ~ documenting the full part selection process </li>
+            </ul>
+            <br><br><br><br>
+          </p>
           <div class="scroll-container">
-            <img src="./assets/jpeg/" alt="placeholder">
-            <img src="./assets/jpeg/" alt="placeholder">
-            <img src="./assets/jpeg/" alt="placeholder">
-            <img src="./assets/jpeg/" alt="placeholder">
+            <div class="gallery">
+              <figure class="gallery__item">
+                <div class="gallery__img-wrap">
+                  <iframe src=" https://drive.google.com/file/d/1J-oe5PFOsTYMsigw1AaAfxTvDq1DrMR5/preview" frameborder="0"></iframe>
+                </div>
+                <figcaption class="gallery__caption">
+                  <span class="gallery__caption-title">Shaft FEA </span>
+                  <span class="gallery__caption-desc"> Von Mises stress was investigated through this model, which included the thrust and weight of the fan system as well as all relevant forces and torque from the gear mesh and bearings. There is a large factor of safety.</span>
+                </figcaption>
+              </figure>
+              <figure class="gallery__item">
+                <div class="gallery__img-wrap">
+                  <iframe src="https://drive.google.com/file/d/1daxDd8X-IU9htX2y_b1sxdpzV8OvBQ_l/preview" frameborder="0"></iframe>
+                </div>
+                <figcaption class="gallery__caption">
+                  <span class="gallery__caption-title">Animation 1 </span>
+                  <span class="gallery__caption-desc"> This is a simple animation of the two stage gearbox with a proposed circular tapered housing.</span>
+                </figcaption>
+              </figure>
+              <figure class="gallery__item">
+                <div class="gallery__img-wrap">
+                  <iframe src="https://drive.google.com/file/d/1KwB7ZH-i9YnueMI2DY3IP2auZGzoBYYT/preview" frameborder="0"></iframe>
+                </div>
+                <figcaption class="gallery__caption">
+                  <span class="gallery__caption-title">Animation 2</span>
+                  <span class="gallery__caption-desc">This is a simple animation of the gearbox without the housing. </span>
+                </figcaption>
+              </figure>
           </div>
         </div>
-        <p> <br> </p>
-        <div class="projects__row">
+        <hr>
+        <p> <br> <br> </p>
+        <div class="scroll-container">
+          <div class="gallery">
+           <figure class="gallery__item">
+                <div class="gallery__img-wrap">
+                  <iframe src="https://drive.google.com/file/d/1Y79-F9EhrnKXhf7TkmVqFFPsq_pz8Ze-/preview" frameborder="0"></iframe>
+                </div>
+                <figcaption class="gallery__caption">
+                  <span class="gallery__caption-title">Dip Tank Tray Carrier</span>
+                  <span class="gallery__caption-desc"><br> <strong> Problem:</strong> Many parts need to be cleaned in the ultrasonic cleaner. This takes a lot of time to do manually, especially for smaller parts. 
+                    <br> <br> <strong>Solution: </strong>I designed and built a tray/basket carrier that can dip many parts at the same time to make the cleaning process easier.
+                  </span>
+                </figcaption>
+          </figure>
+          <figure class="gallery__item">
+                <div class="gallery__img-wrap">
+                  <iframe src="https://drive.google.com/file/d/1ObWcGuHc623w0GOO5Ru8pUbBEWt-t5Tt/preview" frameborder="0"></iframe>
+                </div>
+                <figcaption class="gallery__caption">
+                  <span class="gallery__caption-title">Cleanroom Turntable</span>
+                  <span class="gallery__caption-desc"><br> <strong> Problem:</strong> The motors are extremely heavy and need to be rotated often during assembly. There is also a large amount of parts that must be used during assembly, making organization difficult.  
+                    <br> <br> <strong>Solution: </strong>I designed a turntable appropriate for the cleanroom on which the motor can easily spin and uses a locating pin to stop rotation. The bottom plate also includes separating walls for easier organization of small parts. 
+                  </span>
+                </figcaption>
+              </figure>
+              <figure class="gallery__item">
+                <div class="gallery__img-wrap">
+                  <iframe src="https://drive.google.com/file/d/1G8bOJDRRqEsaAtTUSmXCl0MOhwkQ6zvW/preview" frameborder="0"></iframe>
+                </div>
+                <figcaption class="gallery__caption">
+                  <span class="gallery__caption-title">Hipot Subassembly Fixture</span>
+                  <span class="gallery__caption-desc"><br> <strong> Problem:</strong> High potential testing applies high voltages to parts to evaluate insulation, which can be very dangerous. 
+                    <br> <br> <strong>Solution: </strong>I created a hands-off fixture that allows the user to align the copper set screw lugs onto the bussing features of the appropriate phases of the plate subassemblies. This gives the user a path to simply apply the appropriate test voltages to the desired phases without touching potentially live components.
+                </figcaption>
+              </figure>
+            </div>
+        </div>
+         <p> <br> <br> </p>
+
+        <details>
+          <summary role="heading" aria-level="2"><h3 class="projects__row-content-title"> <strong> Click to See Other Projects </strong> </h3></summary>
+          <p> <br> </p>
+          <div class="scroll-container">
+          <div class="gallery">
+              <figure class="gallery__item">
+                <div class="scroll-container">
+                    <iframe src="https://drive.google.com/file/d/1Emmjtp-_shOmWuqQ67LCBghH88iqYqbW/preview" frameborder="0"></iframe>
+                    <iframe src="https://drive.google.com/file/d/18fuD6-hDoAI6xj_-1qE0F9BpV9i-dx4Q/preview" frameborder="0"></iframe>
+                  </div>
+                <figcaption class="gallery__caption">
+                  <span class="gallery__caption-title">Plate Carrier</span>
+                  <span class="gallery__caption-desc"><br> <strong> Problem:</strong> Cleaning and drying the plates is currently very labor intensive. 
+                    <br> <br> <strong>Solution: </strong>This carrier allows the user to clean then dry up to 15 plates at a time without much movement. The closing mechanism uses a quick link, stainless steel chains, and a snap hook to allow easy placement and removal of plates. I also completed a basic static simulation of the part and discovered that there is minimal displacement in the Z-direction and essentially no torsion.
+                  </span>
+                </figcaption>
+              </figure>
+            <figure class="gallery__item">
+                <div class="scroll-container">
+                    <iframe src="https://drive.google.com/file/d/1JdqY3CofB75lhMNkhbDLBIzF_ZN0A750/preview" frameborder="0"></iframe>
+                  </div>
+                <figcaption class="gallery__caption">
+                  <span class="gallery__caption-title">Deflection Model</span>
+                  <span class="gallery__caption-desc"><br> <strong> Problem:</strong> We want to see how much plates deflect when under load. 
+                    <br> <br> <strong>Solution: </strong>I worked on improving the boundary conditions of this Python model using the Kirchkoff-Love thin-plate theory and removed slightly under a thousand lines of redundant code.
+                  </span>
+                </figcaption>
+              </figure>
+              <figure class="gallery__item">
+                <div class="gallery__img-wrap">
+                  <iframe src="https://drive.google.com/file/d/1qeII8syV1cicBKnlujR-1p9Yx-90K4te/preview" frameborder="0"></iframe>
+                </div>
+                <figcaption class="gallery__caption">
+                  <span class="gallery__caption-title">Rotor Connector Epoxy Plug</span>
+                  <span class="gallery__caption-desc"> <br><strong> Problem: </strong> Epoxy often bubbles into the center bore of the rotor connector during the potting process and is difficult to completely remove when the potting process is complete.<br>
+                  <br> <strong> Solution: </strong> I created a 3D-printed plug that prevents any leakage and also wrote a
+                    SOP for the rotor connector build.</span>
+                </figcaption>
+              </figure>
+              <figure class="gallery__item">
+                <div class="gallery__img-wrap">
+                  <div class="scroll-container">
+                    <iframe src="https://drive.google.com/file/d/1IGuqmER6CyoR7fEnOQ83caLucYaKr0C5/preview" frameborder="0"></iframe>
+                    <iframe src="https://drive.google.com/file/d/17iZ2fdqEvSIP_q49e6ctyS6uBFIJlVv5/preview" frameborder="0"></iframe>
+                  </div>
+                </div>
+                <figcaption class="gallery__caption">
+                  <span class="gallery__caption-title">Quick Connect Cap</span>
+                  <span class="gallery__caption-desc"> <br><strong> Problem: </strong> The motors have quick connect fittings for the dielectric fluid fill process that most fingers could fit into and break the seal. We don't want someone who doesn't understand the importance of the seal to be able to modify the sealing.<br>
+                 <br> <strong> Solution: </strong> I created a 3D-printable cap such that it would take extreme force to access the interior of the fittings. 
+                    This was ultimately successful and we had to use a hammer to get the prototypes off.</span>
+                </figcaption>
+              </figure>
+              <figure class="gallery__item">
+                <div class="gallery__img-wrap">
+                  <iframe src=" https://drive.google.com/file/d/15JCFIu6NWo6f2yBvmrhyBrwn6_A7wQeT/preview" frameborder="0"></iframe>
+                </div>
+                <figcaption class="gallery__caption">
+                  <span class="gallery__caption-title">Glassware Cabinet Door</span>
+                  <span class="gallery__caption-desc"><br> <strong> Problem: </strong> The cabinet broke. <br><br> <strong>Solution:</strong> I made a replacement 3D-printed part that allowed the door to open smoothly again.</span>
+                </figcaption>
+              </figure>
+              <figure class="gallery__item">
+                <div class="gallery__img-wrap">
+                  <div class="scroll-container">
+                    <iframe src="https://drive.google.com/file/d/18nl8y96zKZykqs9oTKA7aIyOfz_IyEtF/preview" frameborder="0"></iframe>
+                    <iframe src="https://drive.google.com/file/d/1RTmF6iBCBQfWpD9lMx9fAdM6_U7VU0kw/preview" frameborder="0"></iframe>
+                  </div>
+                </div>
+                <figcaption class="gallery__caption">
+                  <span class="gallery__caption-title">Brake Dynamometer Mount</span>
+                  <span class="gallery__caption-desc"> <br> <strong> Problem: </strong> The mount for dynamometer testing was outdated. <br>
+                    <br><strong> Solution: </strong>I created a second revision of the mount assembly for the brake dynamometer, which tests motor durability, to fit the newest motor model. I also rebuilt the newest version.</span>
+                </figcaption>
+              </figure>
+              <figure class="gallery__item">
+                <div class="gallery__img-wrap">
+                  <iframe src="https://drive.google.com/file/d/1nsbgZ9vsC55NpEarzmB-0G9rFC5J4aob/preview" frameborder="0"></iframe>
+                </div>
+                <figcaption class="gallery__caption">
+                  <span class="gallery__caption-title">Filter Housing</span>
+                  <span class="gallery__caption-desc"><br> <strong> Problem:</strong> The chemistry team needed more housings for their paper membrane filters. 
+                    <br> <br> <strong>Solution: </strong>I modeled the housing in SolidWorks then created a drawing with GD&T guidelines. 
+                  </span>
+                </figcaption>
+              </figure>
+          </div>
+        </details>
+
+      </div>
+        </div>
+        <p> <br> <br> <br> </p>
+        <div class="projects__row" id ="two">
           <div class="projects__row-content">
             <h3 class="projects__row-content-title">Project 2: Smart Moving Alarm Clock - July 2026</h3>
             <p class="projects__row-content-desc">Many people struggle with waking up on time and missing important events. 
@@ -113,7 +306,13 @@
             </p>
             <br>
           </div>
-          <p> <br> </p>
+         <br><br>
+              <h3 class="projects__row-content-title"> Skills Gained</h3>
+                <button><strong> IOT Concepts</strong></button>
+                <button><strong> Microcontroller Programming (ESP32) </strong> </button>
+                <button><strong> API Integration </strong> </button>
+                <button><strong> Mechanical & Electrical System Integration</strong> </button>
+          <p> <br><br> </p>
 
           <div class="gallery">
             <figure class="gallery__item">
@@ -149,32 +348,23 @@
           </div>
         </div>
           <p> <br> </p>
-        <div class="projects__row">
+        <div class="projects__row" id="one">
           <div class="projects__row-content">
             <h3 class="projects__row-content-title">Project 1: Cansat Electrical Prototype - April 2026</h3>
             <p class="projects__row-content-desc"> I am the co-founder and software director of the Cansat project 
               for <a href="https://www.wiscubed.com" target="_blank" rel="noreferrer"> Wisconsin SmallSat</a>, 
               a new engineering competition team at the University of Wisconsin-Madison. I currently lead development on 
-              the electrical power, sensor, and ground communication subsystems. We have recently completed our first 
-              electrical prototype and have a working graphical user interface showcasing live temperature/pressure/altitude data 
-              transmission utilizing a bluetooth HC-05 module. Further development will continue for 
-              testing with RF modules and command sending. Credits to Ritika Lakare and <a href="https://www.linkedin.com/in/oleksandrkurtianyk/"> Oleksandr Kurtianyk</a> for help with wiring and component research.</p>
+              the electrical power, sensor, and ground communication subsystems. This simple first 
+              electrical prototype consists of a working graphical user interface showcasing live temperature/pressure/altitude data 
+              transmission utilizing a bluetooth HC-05 module.  Credits to Ritika Lakare and <a href="https://www.linkedin.com/in/oleksandrkurtianyk/"> Oleksandr Kurtianyk</a> for help with wiring and component research.</p>
           </div>
-          <br>
-          <p> <br> </p>
+          <br><br>
+              <h3 class="projects__row-content-title"> Skills Gained</h3>
+                <button><strong> Microcontroller Programming (Arduino Nano)</strong></button>
+                <button><strong> GUI Design and Sensor Data Analysis</strong> </button>
+                <button><strong> Serial Port Communication </strong> </button>
+          <p> <br><br> </p>
 
-          <div class="gallery">
-            <figure class="gallery__item">
-              <div class="gallery_img-wrap">
-                <iframe src="https://drive.google.com/file/d/1zrYLyGZSCWCRSG_oPkqPplhHQ5RTXFUo/preview" frameborder="0" allowfullscreen alt="Video Demo"></iframe>
-              </div>
-              <figcaption class="gallery__caption">
-                <span class="gallery__caption-title">Video Demonstration</span>
-                <span class="gallery__caption-desc">GUI and Hardware Showcase</span>
-              </figcaption>
-            </figure>
-          </div>
-          <p> <br> </p>
           <div class="gallery">
             <figure class="gallery__item">
               <div class="gallery__img-wrap">
@@ -183,6 +373,19 @@
               <figcaption class="gallery__caption">
                 <span class="gallery__caption-title">Electrical Prototype and Wiring</span>
                 <span class="gallery__caption-desc">This is what the circuit looks like. Components include an Arduino Nano, HC-05 (bluetooth), BMP280 (pressure/temperature), and two coin battery packs.</span>
+              </figcaption>
+            </figure>
+          
+          </div>
+          <p> <br> </p>
+          <div class="gallery">
+            <figure class="gallery__item">
+              <div class="gallery__img-wrap">
+                <iframe src="https://drive.google.com/file/d/1zrYLyGZSCWCRSG_oPkqPplhHQ5RTXFUo/preview" frameborder="0"></iframe>
+              </div>
+              <figcaption class="gallery__caption">
+                <span class="gallery__caption-title">Video Demonstration</span>
+                <span class="gallery__caption-desc">GUI and Hardware Simultaneous Showcase</span>
               </figcaption>
             </figure>
             <figure class="gallery__item">

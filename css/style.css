@@ -90,8 +90,8 @@ body {
   background: var(--color-bg);
 }
 
-ul { font-size: 2rem; list-style-type: none; }
-li { font-size: 1.7rem; color: var(--grey-700);}
+ul { font-size: 2.5rem; list-style-type: none; }
+li { font-size: 2rem; color: var(--grey-700);}
 
 a {
   color: var(--color-rose);
@@ -108,13 +108,13 @@ button {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 2rem;
   margin: 4px 2px;
   cursor: pointer;
 }
 
 button a{
-  color: var(--grey-500);
+  color: var(--grey-700);
 }
 
 button a:hover{
@@ -122,7 +122,7 @@ button a:hover{
 }
 
 button:hover {
-  background-color: var(--color-rose);
+  background-color: var(--color-pale);
   color: var(--grey-900);
 }
 
@@ -260,7 +260,7 @@ img { max-width: 100%; display: block; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 5rem;
+  padding: .75rem 3rem;
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -316,7 +316,7 @@ img { max-width: 100%; display: block; }
 
 .header__link {
   display: inline-block;
-  padding: 2.2rem 3rem;
+  padding: 1rem 3rem;
   font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: 1px;
@@ -328,12 +328,12 @@ img { max-width: 100%; display: block; }
 .header__link:hover { color: var(--color-accent); }
 
 @media only screen and (max-width: 56.25em) {
-  .header__link { padding: 3rem 1.8rem; font-size: 1.4rem; }
+  .header__link { padding: 1rem 1.8rem; font-size: 1.4rem; }
 }
 
 .header__main-ham-menu-cont {
   display: none;
-  width: 3rem;
+  width: 4rem;
   padding: 2.2rem 0;
 }
 
@@ -359,7 +359,7 @@ img { max-width: 100%; display: block; }
 
 .header__sm-menu-link a {
   display: block;
-  padding: 2.2rem 3rem;
+  padding: 1rem 3rem;
   font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: 2px;
@@ -473,14 +473,14 @@ img { max-width: 100%; display: block; }
 
 .projects__row-content-title {
   margin-bottom: 1.5rem;
-  font-size: 2.4rem;
+  font-size: 2.5rem;
   font-weight: 700;
 }
 
 .projects__row-content-desc {
-  max-width: 70rem;
+  max-width: 80rem;
   margin: 0 auto;
-  font-size: 1.7rem;
+  font-size: 2rem;
   line-height: 1.7;
   color: var(--color-text-muted);
 }
@@ -544,14 +544,14 @@ img { max-width: 100%; display: block; }
   display: block;
   margin-bottom: 0.4rem;
   font-family: var(--font-heading);
-  font-size: 1.7rem;
+  font-size: 3rem;
   font-weight: 600;
   color: var(--color-off-white);
 }
 
 .gallery__caption-desc {
   display: block;
-  font-size: 1.4rem;
+  font-size: 2rem;
   line-height: 1.5;
   color: var(--grey-100);
 }
@@ -669,8 +669,8 @@ img { max-width: 100%; display: block; }
 
 .scroll-container img {
   flex: 0 0 auto;
-  width: 60%;
-  max-width: 40rem;
+  width: 100%;
+  max-width: 50rem;
   border-radius: 8px;
   scroll-snap-align: center;
 }
