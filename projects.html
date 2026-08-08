@@ -153,9 +153,23 @@
         <p> <br> <br> </p>
         <hr>
         <p> <br> <br> </p>
-        <div class="scroll-container">
+
+      <details>
+        <summary role="heading" aria-level="2"><h3 class="projects__row-content-title"> <strong> Click to See Other Projects </strong> </h3></summary>
+        <p> <br> </p>
           <div class="gallery">
-           <figure class="gallery__item">
+            <figure class="gallery__item">
+              <div class="gallery__img-wrap">
+                <iframe src="https://drive.google.com/file/d/1JdqY3CofB75lhMNkhbDLBIzF_ZN0A750/preview" frameborder="0"></iframe>
+              </div>
+            <figcaption class="gallery__caption">
+              <span class="gallery__caption-title">Deflection Model</span>
+              <span class="gallery__caption-desc"><br> <strong> Problem:</strong> We want to see how much plates deflect when under load. 
+                <br> <br> <strong>Solution: </strong>I worked on improving the boundary conditions of this Python model using the Kirchkoff-Love thin-plate theory and removed slightly under a thousand lines of redundant code.
+              </span>
+            </figcaption>
+          </figure>
+            <figure class="gallery__item">
                 <div class="gallery__img-wrap">
                   <iframe src="https://drive.google.com/file/d/1Y79-F9EhrnKXhf7TkmVqFFPsq_pz8Ze-/preview" frameborder="0"></iframe>
                 </div>
@@ -163,17 +177,6 @@
                   <span class="gallery__caption-title">Dip Tank Tray Carrier</span>
                   <span class="gallery__caption-desc"><br> <strong> Problem:</strong> Many parts need to be cleaned in the ultrasonic cleaner. This takes a lot of time to do manually, especially for smaller parts. 
                     <br> <br> <strong>Solution: </strong>I designed and built a tray/basket carrier that can dip many parts at the same time to make the cleaning process easier.
-                  </span>
-                </figcaption>
-          </figure>
-          <figure class="gallery__item">
-                <div class="gallery__img-wrap">
-                  <iframe src="https://drive.google.com/file/d/1ObWcGuHc623w0GOO5Ru8pUbBEWt-t5Tt/preview" frameborder="0"></iframe>
-                </div>
-                <figcaption class="gallery__caption">
-                  <span class="gallery__caption-title">Cleanroom Turntable</span>
-                  <span class="gallery__caption-desc"><br> <strong> Problem:</strong> The motors are extremely heavy and need to be rotated often during assembly. There is also a large amount of parts that must be used during assembly, making organization difficult.  
-                    <br> <br> <strong>Solution: </strong>I designed a turntable appropriate for the cleanroom on which the motor can easily spin and uses a locating pin to stop rotation. The bottom plate also includes separating walls for easier organization of small parts. 
                   </span>
                 </figcaption>
           </figure>
@@ -188,12 +191,7 @@
             </figcaption>
           </figure>
         </div>
-      </div>
-      <p> <br> <br> </p>
-
-      <details>
-        <summary role="heading" aria-level="2"><h3 class="projects__row-content-title"> <strong> Click to See Other Projects </strong> </h3></summary>
-        <p> <br> </p>
+        <p><br></p>
         <div class="gallery">
             <figure class="gallery__item">
               <div class="gallery__img-wrap">
@@ -207,28 +205,6 @@
                 <span class="gallery__caption-desc"><br> <strong> Problem:</strong> Cleaning and drying the plates is currently very labor intensive. 
                   <br> <br> <strong>Solution: </strong>This carrier allows the user to clean then dry up to 15 plates at a time without much movement. The closing mechanism uses a quick link, stainless steel chains, and a snap hook to allow easy placement and removal of plates. I also completed a basic static simulation of the part and discovered that there is minimal displacement in the Z-direction and essentially no torsion.
                 </span>
-              </figcaption>
-            </figure>
-            <figure class="gallery__item">
-                <div class="gallery__img-wrap">
-                  <iframe src="https://drive.google.com/file/d/1JdqY3CofB75lhMNkhbDLBIzF_ZN0A750/preview" frameborder="0"></iframe>
-                </div>
-              <figcaption class="gallery__caption">
-                <span class="gallery__caption-title">Deflection Model</span>
-                <span class="gallery__caption-desc"><br> <strong> Problem:</strong> We want to see how much plates deflect when under load. 
-                  <br> <br> <strong>Solution: </strong>I worked on improving the boundary conditions of this Python model using the Kirchkoff-Love thin-plate theory and removed slightly under a thousand lines of redundant code.
-                </span>
-              </figcaption>
-            </figure>
-            <figure class="gallery__item">
-              <div class="gallery__img-wrap">
-                <iframe src="https://drive.google.com/file/d/1qeII8syV1cicBKnlujR-1p9Yx-90K4te/preview" frameborder="0"></iframe>
-              </div>
-              <figcaption class="gallery__caption">
-                <span class="gallery__caption-title">Epoxy Plug</span>
-                <span class="gallery__caption-desc"> <br><strong> Problem: </strong> Epoxy often bubbles into the center bore of the rotor connector during the potting process and is difficult to completely remove when the potting process is complete.<br>
-                <br> <strong> Solution: </strong> I created a 3D-printed plug that prevents any leakage and also wrote a
-                  SOP for the rotor connector build.</span>
               </figcaption>
             </figure>
             <figure class="gallery__item">
@@ -252,7 +228,7 @@
               <figcaption class="gallery__caption">
                 <span class="gallery__caption-title">Filter Housing</span>
                 <span class="gallery__caption-desc"><br> <strong> Problem:</strong> The chemistry team needed more housings for their paper membrane filters. 
-                  <br> <br> <strong>Solution: </strong>I modeled the housing in SolidWorks then created a drawing with GD&T guidelines. 
+                  <br> <br> <strong>Solution: </strong>I modeled the housing in SolidWorks then created a drawing following GD&T guidelines. 
                 </span>
               </figcaption>
             </figure>
