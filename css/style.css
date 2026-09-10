@@ -426,6 +426,7 @@ img { max-width: 100%; display: block; }
   grid-template-columns: 1fr;
   background: var(--color-off-white);
   padding: 25px 25px;
+  border-radius: 12px;
   gap: 4rem;
   max-width: 70vw;
   margin: 0 auto;
