@@ -428,7 +428,7 @@ img { max-width: 100%; display: block; }
   padding: 25px 25px;
   border-radius: 12px;
   gap: 4rem;
-  max-width: 70vw;
+  max-width: 80vw;
   margin: 0 auto;
 }
 
@@ -479,7 +479,7 @@ img { max-width: 100%; display: block; }
 }
 
 .projects__row-content-desc {
-  max-width: 80rem;
+  max-width: 85rem;
   margin: 0 auto;
   font-size: 2rem;
   line-height: 1.7;
